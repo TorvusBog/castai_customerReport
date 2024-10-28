@@ -12,3 +12,27 @@ The script relies on specific Python libraries for data handling, date manipulat
 
 ```bash
 pip install -r requirements.txt
+```
+
+### Tokens
+
+A file called tokens.csv.example, change it to tokens.csv and add the tokens in the following order (follow the header row):
+
+```csv
+organizatioName,apiToken,OrganizationID
+```
+
+## Running
+
+Make sure that tmp and analysis directory exists
+
+and run it with
+
+```bash
+python3 getCustomerData.py
+```
+
+It will create temp files in the working directory 'tmp' and the analysis output in the 'analysis' directory
+
+
+
